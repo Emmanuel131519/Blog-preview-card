@@ -39,7 +39,7 @@ main {
  width: 4rem;
   font-family: var(--figtree);
   padding: 6px;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .Published {
