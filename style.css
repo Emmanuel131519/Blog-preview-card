@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Gray-500: hsl(0, 0%, 42%);
+  --Gray-950: hsl(0, 0%, 7%);
+  --figtree: "Figtree", sans-serif;
+}
+html,body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+body {
+  background-color: var(--Yellow);
+}
+main {
+  background-color: var(--White);
+  min-height: 30rem;
+  padding: 1rem;
+  border-radius: 10px;
+  /* margin: 5rem 0 0.7rem 0.7rem; */
+  width: 90%;
+  box-shadow: 15px 15px 15px var(--Gray-950);
+}
+.main-img {
+  border-radius: 15px;
+  width: 100%;
+}
+.Learning {
+  background-color: var(--Yellow);
+ margin-top: 15px;
+ width: 4rem;
+  font-family: var(--figtree);
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.Published {
+  margin-top: 1rem;
+  font-family: var(--figtree);
+}
+
+h2 {
+  margin-top: 1rem;
+  font-family: var(--figtree);
+  font-weight: 800;
+}
+p {
+  margin-top: 1rem;
+  font-family: var(--figtree);
+  font-size: 16px;
+  font-weight: 500;
+}
+.Greg {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  /* padding-right: 5rem; */
+/* padding: 1rem; */
+}
+.Greg-hooper {
+  font-family: var(--figtree);  
+  font-weight: 800;
+padding: 1rem;
+
+}
+.profile{
+  border-radius: 100%;
+    width: 30px;
+    height: 31px;
+}
+@media(min-width:1024px){
+main{
+    padding: 1rem;
+    width: 20rem;
+    height: 20rem;
+}
+}
